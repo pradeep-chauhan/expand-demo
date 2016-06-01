@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD617D2CCCB1EA4DEFEF98D /* Pods_Reshotel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B609A075C2FE4FB1892D539C /* Pods_Reshotel.framework */; };
+		F912B56E1CED9E4C00C4434C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B56D1CED9E4C00C4434C /* AppDelegate.swift */; };
+		F912B5751CED9E4C00C4434C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F912B5741CED9E4C00C4434C /* Assets.xcassets */; };
+		F912B5781CED9E4C00C4434C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F912B5761CED9E4C00C4434C /* LaunchScreen.storyboard */; };
+		F912B5AB1CED9F7500C4434C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5881CED9F7500C4434C /* Reachability.m */; };
+		F912B5AC1CED9F7500C4434C /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B58B1CED9F7500C4434C /* MKAnnotationView+WebCache.m */; };
+		F912B5AD1CED9F7500C4434C /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B58D1CED9F7500C4434C /* NSData+ImageContentType.m */; };
+		F912B5AE1CED9F7500C4434C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B58F1CED9F7500C4434C /* SDImageCache.m */; };
+		F912B5AF1CED9F7500C4434C /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5911CED9F7500C4434C /* SDWebImageCompat.m */; };
+		F912B5B01CED9F7500C4434C /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5931CED9F7500C4434C /* SDWebImageDecoder.m */; };
+		F912B5B11CED9F7500C4434C /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5951CED9F7500C4434C /* SDWebImageDownloader.m */; };
+		F912B5B21CED9F7500C4434C /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5971CED9F7500C4434C /* SDWebImageDownloaderOperation.m */; };
+		F912B5B31CED9F7500C4434C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5991CED9F7500C4434C /* SDWebImageManager.m */; };
+		F912B5B41CED9F7500C4434C /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B59C1CED9F7500C4434C /* SDWebImagePrefetcher.m */; };
+		F912B5B51CED9F7500C4434C /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B59E1CED9F7500C4434C /* UIButton+WebCache.m */; };
+		F912B5B61CED9F7500C4434C /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5A01CED9F7500C4434C /* UIImage+GIF.m */; };
+		F912B5B71CED9F7500C4434C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5A21CED9F7500C4434C /* UIImage+MultiFormat.m */; };
+		F912B5B81CED9F7500C4434C /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5A41CED9F7500C4434C /* UIImage+WebP.m */; };
+		F912B5B91CED9F7500C4434C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5A61CED9F7500C4434C /* UIImageView+HighlightedWebCache.m */; };
+		F912B5BA1CED9F7500C4434C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5A81CED9F7500C4434C /* UIImageView+WebCache.m */; };
+		F912B5BB1CED9F7500C4434C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5AA1CED9F7500C4434C /* UIView+WebCacheOperation.m */; };
+		F912B5BD1CEDA0E700C4434C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B5BC1CEDA0E700C4434C /* Constants.swift */; };
+		F912B5DF1CEDA8E800C4434C /* reshotel.png in Resources */ = {isa = PBXBuildFile; fileRef = F912B5DE1CEDA8E800C4434C /* reshotel.png */; };
+		F912B5EB1CEDBDDC00C4434C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B5EA1CEDBDDC00C4434C /* LoginViewController.swift */; };
+		F912B60D1CEDC49700C4434C /* CALayer+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5EE1CEDC49700C4434C /* CALayer+FSExtension.m */; };
+		F912B60E1CEDC49700C4434C /* FSCalendar+IBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5F01CEDC49700C4434C /* FSCalendar+IBExtension.m */; };
+		F912B60F1CEDC49700C4434C /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5F21CEDC49700C4434C /* FSCalendar.m */; };
+		F912B6101CEDC49700C4434C /* FSCalendarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5F41CEDC49700C4434C /* FSCalendarAnimator.m */; };
+		F912B6111CEDC49700C4434C /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5F61CEDC49700C4434C /* FSCalendarAppearance.m */; };
+		F912B6121CEDC49700C4434C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5F81CEDC49700C4434C /* FSCalendarCell.m */; };
+		F912B6131CEDC49700C4434C /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5FA1CEDC49700C4434C /* FSCalendarCollectionView.m */; };
+		F912B6141CEDC49700C4434C /* FSCalendarConstance.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5FC1CEDC49700C4434C /* FSCalendarConstance.m */; };
+		F912B6151CEDC49700C4434C /* FSCalendarEventIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B5FF1CEDC49700C4434C /* FSCalendarEventIndicator.m */; };
+		F912B6161CEDC49700C4434C /* FSCalendarFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B6011CEDC49700C4434C /* FSCalendarFlowLayout.m */; };
+		F912B6171CEDC49700C4434C /* FSCalendarHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B6031CEDC49700C4434C /* FSCalendarHeader.m */; };
+		F912B6181CEDC49700C4434C /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B6051CEDC49700C4434C /* FSCalendarStickyHeader.m */; };
+		F912B6191CEDC49700C4434C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F912B6061CEDC49700C4434C /* Info.plist */; };
+		F912B61A1CEDC49700C4434C /* NSDate+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B6081CEDC49700C4434C /* NSDate+FSExtension.m */; };
+		F912B61B1CEDC49700C4434C /* NSString+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B60A1CEDC49700C4434C /* NSString+FSExtension.m */; };
+		F912B61C1CEDC49700C4434C /* UIView+FSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F912B60C1CEDC49700C4434C /* UIView+FSExtension.m */; };
+		F912B61E1CEDD52000C4434C /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B61D1CEDD52000C4434C /* BookingViewController.swift */; };
+		F912B6201CEDD53600C4434C /* AvailabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B61F1CEDD53600C4434C /* AvailabilityViewController.swift */; };
+		F912B6221CEDD5AB00C4434C /* DeshBoardTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B6211CEDD5AB00C4434C /* DeshBoardTabBarViewController.swift */; };
+		F912B6241CEDDB5F00C4434C /* FullCalendarShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B6231CEDDB5F00C4434C /* FullCalendarShowViewController.swift */; };
+		F912B6261CF31CAD00C4434C /* BookingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B6251CF31CAD00C4434C /* BookingTableViewCell.swift */; };
+		F912B6281CF31DA500C4434C /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B6271CF31DA500C4434C /* Booking.swift */; };
+		F912B62A1CF5951F00C4434C /* AvailabilityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B6291CF5951F00C4434C /* AvailabilityTableViewCell.swift */; };
+		F912B62E1CF6EA5A00C4434C /* BookingDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F912B62D1CF6EA5A00C4434C /* BookingDetailsViewController.swift */; };
+		F96296BE1CFADD6300E80535 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96296BD1CFADD6300E80535 /* SettingsViewController.swift */; };
+		F96296C11CFC189E00E80535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96296BF1CFC189E00E80535 /* Main.storyboard */; };
+		F96296C31CFC5A0C00E80535 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96296C21CFC5A0C00E80535 /* ContactUsViewController.swift */; };
+		F96296C51CFC76F100E80535 /* ratePlanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F96296C41CFC76F100E80535 /* ratePlanView.xib */; };
+		F96296C71CFC788E00E80535 /* ratePlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96296C61CFC788E00E80535 /* ratePlanView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59271DF3D68EB3D72D8EF124 /* Pods-Reshotel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reshotel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Reshotel/Pods-Reshotel.release.xcconfig"; sourceTree = "<group>"; };
+		B609A075C2FE4FB1892D539C /* Pods_Reshotel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reshotel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3622FA273A11824EE45AF4B /* Pods-Reshotel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reshotel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reshotel/Pods-Reshotel.debug.xcconfig"; sourceTree = "<group>"; };
+		F912B56A1CED9E4C00C4434C /* Reshotel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reshotel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F912B56D1CED9E4C00C4434C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F912B5741CED9E4C00C4434C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F912B5771CED9E4C00C4434C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F912B5791CED9E4C00C4434C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F912B57F1CED9E8700C4434C /* Reshotel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Reshotel-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		F912B5871CED9F7500C4434C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F912B5881CED9F7500C4434C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F912B58A1CED9F7500C4434C /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		F912B58B1CED9F7500C4434C /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		F912B58C1CED9F7500C4434C /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		F912B58D1CED9F7500C4434C /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F912B58E1CED9F7500C4434C /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		F912B58F1CED9F7500C4434C /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		F912B5901CED9F7500C4434C /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		F912B5911CED9F7500C4434C /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		F912B5921CED9F7500C4434C /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		F912B5931CED9F7500C4434C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F912B5941CED9F7500C4434C /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		F912B5951CED9F7500C4434C /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		F912B5961CED9F7500C4434C /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		F912B5971CED9F7500C4434C /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		F912B5981CED9F7500C4434C /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		F912B5991CED9F7500C4434C /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		F912B59A1CED9F7500C4434C /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		F912B59B1CED9F7500C4434C /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		F912B59C1CED9F7500C4434C /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		F912B59D1CED9F7500C4434C /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		F912B59E1CED9F7500C4434C /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		F912B59F1CED9F7500C4434C /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		F912B5A01CED9F7500C4434C /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		F912B5A11CED9F7500C4434C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		F912B5A21CED9F7500C4434C /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		F912B5A31CED9F7500C4434C /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		F912B5A41CED9F7500C4434C /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		F912B5A51CED9F7500C4434C /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		F912B5A61CED9F7500C4434C /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		F912B5A71CED9F7500C4434C /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		F912B5A81CED9F7500C4434C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		F912B5A91CED9F7500C4434C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		F912B5AA1CED9F7500C4434C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		F912B5BC1CEDA0E700C4434C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F912B5DE1CEDA8E800C4434C /* reshotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reshotel.png; sourceTree = "<group>"; };
+		F912B5EA1CEDBDDC00C4434C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F912B5ED1CEDC49700C4434C /* CALayer+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSExtension.h"; sourceTree = "<group>"; };
+		F912B5EE1CEDC49700C4434C /* CALayer+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSExtension.m"; sourceTree = "<group>"; };
+		F912B5EF1CEDC49700C4434C /* FSCalendar+IBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FSCalendar+IBExtension.h"; sourceTree = "<group>"; };
+		F912B5F01CEDC49700C4434C /* FSCalendar+IBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+IBExtension.m"; sourceTree = "<group>"; };
+		F912B5F11CEDC49700C4434C /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		F912B5F21CEDC49700C4434C /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		F912B5F31CEDC49700C4434C /* FSCalendarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAnimator.h; sourceTree = "<group>"; };
+		F912B5F41CEDC49700C4434C /* FSCalendarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAnimator.m; sourceTree = "<group>"; };
+		F912B5F51CEDC49700C4434C /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		F912B5F61CEDC49700C4434C /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		F912B5F71CEDC49700C4434C /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		F912B5F81CEDC49700C4434C /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		F912B5F91CEDC49700C4434C /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		F912B5FA1CEDC49700C4434C /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		F912B5FB1CEDC49700C4434C /* FSCalendarConstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstance.h; sourceTree = "<group>"; };
+		F912B5FC1CEDC49700C4434C /* FSCalendarConstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstance.m; sourceTree = "<group>"; };
+		F912B5FD1CEDC49700C4434C /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		F912B5FE1CEDC49700C4434C /* FSCalendarEventIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarEventIndicator.h; sourceTree = "<group>"; };
+		F912B5FF1CEDC49700C4434C /* FSCalendarEventIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarEventIndicator.m; sourceTree = "<group>"; };
+		F912B6001CEDC49700C4434C /* FSCalendarFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarFlowLayout.h; sourceTree = "<group>"; };
+		F912B6011CEDC49700C4434C /* FSCalendarFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarFlowLayout.m; sourceTree = "<group>"; };
+		F912B6021CEDC49700C4434C /* FSCalendarHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeader.h; sourceTree = "<group>"; };
+		F912B6031CEDC49700C4434C /* FSCalendarHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeader.m; sourceTree = "<group>"; };
+		F912B6041CEDC49700C4434C /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		F912B6051CEDC49700C4434C /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		F912B6061CEDC49700C4434C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F912B6071CEDC49700C4434C /* NSDate+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSExtension.h"; sourceTree = "<group>"; };
+		F912B6081CEDC49700C4434C /* NSDate+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSExtension.m"; sourceTree = "<group>"; };
+		F912B6091CEDC49700C4434C /* NSString+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FSExtension.h"; sourceTree = "<group>"; };
+		F912B60A1CEDC49700C4434C /* NSString+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FSExtension.m"; sourceTree = "<group>"; };
+		F912B60B1CEDC49700C4434C /* UIView+FSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FSExtension.h"; sourceTree = "<group>"; };
+		F912B60C1CEDC49700C4434C /* UIView+FSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FSExtension.m"; sourceTree = "<group>"; };
+		F912B61D1CEDD52000C4434C /* BookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		F912B61F1CEDD53600C4434C /* AvailabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityViewController.swift; sourceTree = "<group>"; };
+		F912B6211CEDD5AB00C4434C /* DeshBoardTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeshBoardTabBarViewController.swift; sourceTree = "<group>"; };
+		F912B6231CEDDB5F00C4434C /* FullCalendarShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullCalendarShowViewController.swift; sourceTree = "<group>"; };
+		F912B6251CF31CAD00C4434C /* BookingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingTableViewCell.swift; sourceTree = "<group>"; };
+		F912B6271CF31DA500C4434C /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		F912B6291CF5951F00C4434C /* AvailabilityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityTableViewCell.swift; sourceTree = "<group>"; };
+		F912B62D1CF6EA5A00C4434C /* BookingDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDetailsViewController.swift; sourceTree = "<group>"; };
+		F96296BD1CFADD6300E80535 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F96296C01CFC189E00E80535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F96296C21CFC5A0C00E80535 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		F96296C41CFC76F100E80535 /* ratePlanView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ratePlanView.xib; sourceTree = "<group>"; };
+		F96296C61CFC788E00E80535 /* ratePlanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ratePlanView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F912B5671CED9E4C00C4434C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD617D2CCCB1EA4DEFEF98D /* Pods_Reshotel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BD94C972D0AD6EC69928BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B609A075C2FE4FB1892D539C /* Pods_Reshotel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2D597D2440C9E4101D40221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3622FA273A11824EE45AF4B /* Pods-Reshotel.debug.xcconfig */,
+				59271DF3D68EB3D72D8EF124 /* Pods-Reshotel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F912B5611CED9E4C00C4434C = {
+			isa = PBXGroup;
+			children = (
+				F912B56C1CED9E4C00C4434C /* Reshotel */,
+				F912B56B1CED9E4C00C4434C /* Products */,
+				F2D597D2440C9E4101D40221 /* Pods */,
+				20BD94C972D0AD6EC69928BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F912B56B1CED9E4C00C4434C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F912B56A1CED9E4C00C4434C /* Reshotel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F912B56C1CED9E4C00C4434C /* Reshotel */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5861CED9F1D00C4434C /* Utilities */,
+				F912B5851CED9F0900C4434C /* Supporting Files */,
+				F912B5841CED9EEE00C4434C /* View */,
+				F912B5831CED9EE600C4434C /* Assets */,
+				F912B5821CED9EDC00C4434C /* Model */,
+				F912B5811CED9ED300C4434C /* Controller */,
+				F912B5801CED9EC800C4434C /* Obj-C */,
+			);
+			path = Reshotel;
+			sourceTree = "<group>";
+		};
+		F912B5801CED9EC800C4434C /* Obj-C */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5871CED9F7500C4434C /* Reachability.h */,
+				F912B5881CED9F7500C4434C /* Reachability.m */,
+				F912B5EC1CEDC49700C4434C /* FSCalendar */,
+				F912B5891CED9F7500C4434C /* SDWebImage */,
+			);
+			name = "Obj-C";
+			sourceTree = "<group>";
+		};
+		F912B5811CED9ED300C4434C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F912B61F1CEDD53600C4434C /* AvailabilityViewController.swift */,
+				F912B6291CF5951F00C4434C /* AvailabilityTableViewCell.swift */,
+				F912B5EA1CEDBDDC00C4434C /* LoginViewController.swift */,
+				F912B62D1CF6EA5A00C4434C /* BookingDetailsViewController.swift */,
+				F96296C61CFC788E00E80535 /* ratePlanView.swift */,
+				F912B61D1CEDD52000C4434C /* BookingViewController.swift */,
+				F96296C21CFC5A0C00E80535 /* ContactUsViewController.swift */,
+				F912B6251CF31CAD00C4434C /* BookingTableViewCell.swift */,
+				F96296BD1CFADD6300E80535 /* SettingsViewController.swift */,
+				F912B6211CEDD5AB00C4434C /* DeshBoardTabBarViewController.swift */,
+				F912B6231CEDDB5F00C4434C /* FullCalendarShowViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F912B5821CED9EDC00C4434C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F912B6271CF31DA500C4434C /* Booking.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F912B5831CED9EE600C4434C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5E01CEDA8EE00C4434C /* Logo */,
+				F912B5741CED9E4C00C4434C /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		F912B5841CED9EEE00C4434C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F96296BF1CFC189E00E80535 /* Main.storyboard */,
+				F96296C41CFC76F100E80535 /* ratePlanView.xib */,
+				F912B5761CED9E4C00C4434C /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F912B5851CED9F0900C4434C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F912B57F1CED9E8700C4434C /* Reshotel-Bridging-Header.h */,
+				F912B5791CED9E4C00C4434C /* Info.plist */,
+				F912B56D1CED9E4C00C4434C /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F912B5861CED9F1D00C4434C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5BC1CEDA0E700C4434C /* Constants.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F912B5891CED9F7500C4434C /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				F912B58A1CED9F7500C4434C /* MKAnnotationView+WebCache.h */,
+				F912B58B1CED9F7500C4434C /* MKAnnotationView+WebCache.m */,
+				F912B58C1CED9F7500C4434C /* NSData+ImageContentType.h */,
+				F912B58D1CED9F7500C4434C /* NSData+ImageContentType.m */,
+				F912B58E1CED9F7500C4434C /* SDImageCache.h */,
+				F912B58F1CED9F7500C4434C /* SDImageCache.m */,
+				F912B5901CED9F7500C4434C /* SDWebImageCompat.h */,
+				F912B5911CED9F7500C4434C /* SDWebImageCompat.m */,
+				F912B5921CED9F7500C4434C /* SDWebImageDecoder.h */,
+				F912B5931CED9F7500C4434C /* SDWebImageDecoder.m */,
+				F912B5941CED9F7500C4434C /* SDWebImageDownloader.h */,
+				F912B5951CED9F7500C4434C /* SDWebImageDownloader.m */,
+				F912B5961CED9F7500C4434C /* SDWebImageDownloaderOperation.h */,
+				F912B5971CED9F7500C4434C /* SDWebImageDownloaderOperation.m */,
+				F912B5981CED9F7500C4434C /* SDWebImageManager.h */,
+				F912B5991CED9F7500C4434C /* SDWebImageManager.m */,
+				F912B59A1CED9F7500C4434C /* SDWebImageOperation.h */,
+				F912B59B1CED9F7500C4434C /* SDWebImagePrefetcher.h */,
+				F912B59C1CED9F7500C4434C /* SDWebImagePrefetcher.m */,
+				F912B59D1CED9F7500C4434C /* UIButton+WebCache.h */,
+				F912B59E1CED9F7500C4434C /* UIButton+WebCache.m */,
+				F912B59F1CED9F7500C4434C /* UIImage+GIF.h */,
+				F912B5A01CED9F7500C4434C /* UIImage+GIF.m */,
+				F912B5A11CED9F7500C4434C /* UIImage+MultiFormat.h */,
+				F912B5A21CED9F7500C4434C /* UIImage+MultiFormat.m */,
+				F912B5A31CED9F7500C4434C /* UIImage+WebP.h */,
+				F912B5A41CED9F7500C4434C /* UIImage+WebP.m */,
+				F912B5A51CED9F7500C4434C /* UIImageView+HighlightedWebCache.h */,
+				F912B5A61CED9F7500C4434C /* UIImageView+HighlightedWebCache.m */,
+				F912B5A71CED9F7500C4434C /* UIImageView+WebCache.h */,
+				F912B5A81CED9F7500C4434C /* UIImageView+WebCache.m */,
+				F912B5A91CED9F7500C4434C /* UIView+WebCacheOperation.h */,
+				F912B5AA1CED9F7500C4434C /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		F912B5E01CEDA8EE00C4434C /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5DE1CEDA8E800C4434C /* reshotel.png */,
+			);
+			name = Logo;
+			sourceTree = "<group>";
+		};
+		F912B5EC1CEDC49700C4434C /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F912B5ED1CEDC49700C4434C /* CALayer+FSExtension.h */,
+				F912B5EE1CEDC49700C4434C /* CALayer+FSExtension.m */,
+				F912B5EF1CEDC49700C4434C /* FSCalendar+IBExtension.h */,
+				F912B5F01CEDC49700C4434C /* FSCalendar+IBExtension.m */,
+				F912B5F11CEDC49700C4434C /* FSCalendar.h */,
+				F912B5F21CEDC49700C4434C /* FSCalendar.m */,
+				F912B5F31CEDC49700C4434C /* FSCalendarAnimator.h */,
+				F912B5F41CEDC49700C4434C /* FSCalendarAnimator.m */,
+				F912B5F51CEDC49700C4434C /* FSCalendarAppearance.h */,
+				F912B5F61CEDC49700C4434C /* FSCalendarAppearance.m */,
+				F912B5F71CEDC49700C4434C /* FSCalendarCell.h */,
+				F912B5F81CEDC49700C4434C /* FSCalendarCell.m */,
+				F912B5F91CEDC49700C4434C /* FSCalendarCollectionView.h */,
+				F912B5FA1CEDC49700C4434C /* FSCalendarCollectionView.m */,
+				F912B5FB1CEDC49700C4434C /* FSCalendarConstance.h */,
+				F912B5FC1CEDC49700C4434C /* FSCalendarConstance.m */,
+				F912B5FD1CEDC49700C4434C /* FSCalendarDynamicHeader.h */,
+				F912B5FE1CEDC49700C4434C /* FSCalendarEventIndicator.h */,
+				F912B5FF1CEDC49700C4434C /* FSCalendarEventIndicator.m */,
+				F912B6001CEDC49700C4434C /* FSCalendarFlowLayout.h */,
+				F912B6011CEDC49700C4434C /* FSCalendarFlowLayout.m */,
+				F912B6021CEDC49700C4434C /* FSCalendarHeader.h */,
+				F912B6031CEDC49700C4434C /* FSCalendarHeader.m */,
+				F912B6041CEDC49700C4434C /* FSCalendarStickyHeader.h */,
+				F912B6051CEDC49700C4434C /* FSCalendarStickyHeader.m */,
+				F912B6061CEDC49700C4434C /* Info.plist */,
+				F912B6071CEDC49700C4434C /* NSDate+FSExtension.h */,
+				F912B6081CEDC49700C4434C /* NSDate+FSExtension.m */,
+				F912B6091CEDC49700C4434C /* NSString+FSExtension.h */,
+				F912B60A1CEDC49700C4434C /* NSString+FSExtension.m */,
+				F912B60B1CEDC49700C4434C /* UIView+FSExtension.h */,
+				F912B60C1CEDC49700C4434C /* UIView+FSExtension.m */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F912B5691CED9E4C00C4434C /* Reshotel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F912B57C1CED9E4C00C4434C /* Build configuration list for PBXNativeTarget "Reshotel" */;
+			buildPhases = (
+				C1EC8703AD316CAB8AE0BD08 /* Check Pods Manifest.lock */,
+				F912B5661CED9E4C00C4434C /* Sources */,
+				F912B5671CED9E4C00C4434C /* Frameworks */,
+				F912B5681CED9E4C00C4434C /* Resources */,
+				346FDF6DCE53F32C22C5DEE9 /* Embed Pods Frameworks */,
+				BC6B2961A00225B2B36F3F24 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reshotel;
+			productName = Reshotel;
+			productReference = F912B56A1CED9E4C00C4434C /* Reshotel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F912B5621CED9E4C00C4434C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pradeep Chauhan";
+				TargetAttributes = {
+					F912B5691CED9E4C00C4434C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F912B5651CED9E4C00C4434C /* Build configuration list for PBXProject "Reshotel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F912B5611CED9E4C00C4434C;
+			productRefGroup = F912B56B1CED9E4C00C4434C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F912B5691CED9E4C00C4434C /* Reshotel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F912B5681CED9E4C00C4434C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F912B5781CED9E4C00C4434C /* LaunchScreen.storyboard in Resources */,
+				F96296C11CFC189E00E80535 /* Main.storyboard in Resources */,
+				F912B5DF1CEDA8E800C4434C /* reshotel.png in Resources */,
+				F96296C51CFC76F100E80535 /* ratePlanView.xib in Resources */,
+				F912B5751CED9E4C00C4434C /* Assets.xcassets in Resources */,
+				F912B6191CEDC49700C4434C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		346FDF6DCE53F32C22C5DEE9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reshotel/Pods-Reshotel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC6B2961A00225B2B36F3F24 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Reshotel/Pods-Reshotel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EC8703AD316CAB8AE0BD08 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F912B5661CED9E4C00C4434C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F912B5EB1CEDBDDC00C4434C /* LoginViewController.swift in Sources */,
+				F912B6151CEDC49700C4434C /* FSCalendarEventIndicator.m in Sources */,
+				F912B61B1CEDC49700C4434C /* NSString+FSExtension.m in Sources */,
+				F912B6161CEDC49700C4434C /* FSCalendarFlowLayout.m in Sources */,
+				F912B5B91CED9F7500C4434C /* UIImageView+HighlightedWebCache.m in Sources */,
+				F912B61C1CEDC49700C4434C /* UIView+FSExtension.m in Sources */,
+				F912B6181CEDC49700C4434C /* FSCalendarStickyHeader.m in Sources */,
+				F912B60F1CEDC49700C4434C /* FSCalendar.m in Sources */,
+				F912B5AD1CED9F7500C4434C /* NSData+ImageContentType.m in Sources */,
+				F912B5B31CED9F7500C4434C /* SDWebImageManager.m in Sources */,
+				F912B5B11CED9F7500C4434C /* SDWebImageDownloader.m in Sources */,
+				F912B61E1CEDD52000C4434C /* BookingViewController.swift in Sources */,
+				F912B5B81CED9F7500C4434C /* UIImage+WebP.m in Sources */,
+				F912B6171CEDC49700C4434C /* FSCalendarHeader.m in Sources */,
+				F912B5BB1CED9F7500C4434C /* UIView+WebCacheOperation.m in Sources */,
+				F96296BE1CFADD6300E80535 /* SettingsViewController.swift in Sources */,
+				F912B5AE1CED9F7500C4434C /* SDImageCache.m in Sources */,
+				F96296C31CFC5A0C00E80535 /* ContactUsViewController.swift in Sources */,
+				F912B60D1CEDC49700C4434C /* CALayer+FSExtension.m in Sources */,
+				F912B6201CEDD53600C4434C /* AvailabilityViewController.swift in Sources */,
+				F912B5AC1CED9F7500C4434C /* MKAnnotationView+WebCache.m in Sources */,
+				F912B5B01CED9F7500C4434C /* SDWebImageDecoder.m in Sources */,
+				F912B6281CF31DA500C4434C /* Booking.swift in Sources */,
+				F96296C71CFC788E00E80535 /* ratePlanView.swift in Sources */,
+				F912B5B71CED9F7500C4434C /* UIImage+MultiFormat.m in Sources */,
+				F912B5B21CED9F7500C4434C /* SDWebImageDownloaderOperation.m in Sources */,
+				F912B6131CEDC49700C4434C /* FSCalendarCollectionView.m in Sources */,
+				F912B6121CEDC49700C4434C /* FSCalendarCell.m in Sources */,
+				F912B5AB1CED9F7500C4434C /* Reachability.m in Sources */,
+				F912B6261CF31CAD00C4434C /* BookingTableViewCell.swift in Sources */,
+				F912B5B51CED9F7500C4434C /* UIButton+WebCache.m in Sources */,
+				F912B5B41CED9F7500C4434C /* SDWebImagePrefetcher.m in Sources */,
+				F912B6111CEDC49700C4434C /* FSCalendarAppearance.m in Sources */,
+				F912B6101CEDC49700C4434C /* FSCalendarAnimator.m in Sources */,
+				F912B5BD1CEDA0E700C4434C /* Constants.swift in Sources */,
+				F912B6141CEDC49700C4434C /* FSCalendarConstance.m in Sources */,
+				F912B5BA1CED9F7500C4434C /* UIImageView+WebCache.m in Sources */,
+				F912B61A1CEDC49700C4434C /* NSDate+FSExtension.m in Sources */,
+				F912B62E1CF6EA5A00C4434C /* BookingDetailsViewController.swift in Sources */,
+				F912B6241CEDDB5F00C4434C /* FullCalendarShowViewController.swift in Sources */,
+				F912B62A1CF5951F00C4434C /* AvailabilityTableViewCell.swift in Sources */,
+				F912B5AF1CED9F7500C4434C /* SDWebImageCompat.m in Sources */,
+				F912B5B61CED9F7500C4434C /* UIImage+GIF.m in Sources */,
+				F912B56E1CED9E4C00C4434C /* AppDelegate.swift in Sources */,
+				F912B6221CEDD5AB00C4434C /* DeshBoardTabBarViewController.swift in Sources */,
+				F912B60E1CEDC49700C4434C /* FSCalendar+IBExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F912B5761CED9E4C00C4434C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F912B5771CED9E4C00C4434C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F96296BF1CFC189E00E80535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F96296C01CFC189E00E80535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F912B57A1CED9E4C00C4434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F912B57B1CED9E4C00C4434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F912B57D1CED9E4C00C4434C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3622FA273A11824EE45AF4B /* Pods-Reshotel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reshotel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.Reshotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Reshotel-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		F912B57E1CED9E4C00C4434C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59271DF3D68EB3D72D8EF124 /* Pods-Reshotel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reshotel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pradeep.Reshotel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Reshotel-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F912B5651CED9E4C00C4434C /* Build configuration list for PBXProject "Reshotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F912B57A1CED9E4C00C4434C /* Debug */,
+				F912B57B1CED9E4C00C4434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F912B57C1CED9E4C00C4434C /* Build configuration list for PBXNativeTarget "Reshotel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F912B57D1CED9E4C00C4434C /* Debug */,
+				F912B57E1CED9E4C00C4434C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F912B5621CED9E4C00C4434C /* Project object */;
+}

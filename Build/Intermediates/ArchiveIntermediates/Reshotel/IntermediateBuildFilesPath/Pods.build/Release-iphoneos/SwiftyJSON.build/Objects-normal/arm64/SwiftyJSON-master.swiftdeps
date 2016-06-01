@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "2277d514d9a07610b50756d5974fd76f"
+build_time: [518079253, 758213000]
+inputs:
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [9223372036854775807, 0]

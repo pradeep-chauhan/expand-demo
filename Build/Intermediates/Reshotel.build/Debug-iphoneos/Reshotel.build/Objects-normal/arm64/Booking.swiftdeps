@@ -1,0 +1,37 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Booking"
+provides-nominal:
+- "C8Reshotel7Booking"
+provides-member:
+- ["C8Reshotel7Booking", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Booking"
+depends-member:
+- ["Ps9AnyObject", ""]
+- ["C8Reshotel7Booking", "deinit"]
+- ["C8Reshotel7Booking", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8Reshotel7Booking"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel-Bridging-Header.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Reachability.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendar.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarAppearance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarConstance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "7eec7bc00480d41c772493784df66b8e"

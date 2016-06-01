@@ -1,0 +1,375 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BookingDetailsCollectionViewController"
+provides-nominal:
+- "C8Reshotel38BookingDetailsCollectionViewController"
+provides-member:
+- ["C8Reshotel38BookingDetailsCollectionViewController", ""]
+provides-dynamic-lookup:
+- "viewWillAppear"
+- "viewDidLoad"
+- "numberOfSectionsInCollectionView"
+- "collectionView"
+- "collectionView"
+- "didReceiveMemoryWarning"
+depends-top-level:
+- "UICollectionViewCell"
+- !private "=="
+- "BookingDetailsCollectionViewController"
+- !private "StringLiteralType"
+- "UICollectionViewController"
+- "Int"
+- "NSIndexPath"
+- "Bool"
+- "UICollectionView"
+- !private "BooleanLiteralType"
+depends-member:
+- ["Ps9AnyObject", "collectionView"]
+- !private ["Ps9AnyObject", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "navigationController"]
+- !private ["Ps9AnyObject", "navigationItem"]
+- ["Ps9AnyObject", "numberOfSectionsInCollectionView"]
+- !private ["Ps9AnyObject", "row"]
+- !private ["Ps9AnyObject", "setNavigationBarHidden"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", "viewWillAppear"]
+- ["Ps9AnyObject", ""]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "Bool"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "Int"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "NSIndexPath"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "UICollectionView"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "UICollectionViewCell"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "collectionView"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "deinit"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "didReceiveMemoryWarning"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "init"]
+- !private ["C8Reshotel38BookingDetailsCollectionViewController", "navigationController"]
+- !private ["C8Reshotel38BookingDetailsCollectionViewController", "navigationItem"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "numberOfSectionsInCollectionView"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "viewDidLoad"]
+- ["C8Reshotel38BookingDetailsCollectionViewController", "viewWillAppear"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "collectionView"]
+- !private ["Ps11CVarArgType", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "navigationController"]
+- !private ["Ps11CVarArgType", "navigationItem"]
+- ["Ps11CVarArgType", "numberOfSectionsInCollectionView"]
+- !private ["Ps11CVarArgType", "row"]
+- !private ["Ps11CVarArgType", "setNavigationBarHidden"]
+- !private ["Ps11CVarArgType", "title"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", "viewWillAppear"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "collectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationItem"]
+- ["Ps28CustomDebugStringConvertible", "numberOfSectionsInCollectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "row"]
+- !private ["Ps28CustomDebugStringConvertible", "setNavigationBarHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "title"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", "viewWillAppear"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "collectionView"]
+- !private ["Ps23CustomStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- !private ["Ps23CustomStringConvertible", "navigationItem"]
+- ["Ps23CustomStringConvertible", "numberOfSectionsInCollectionView"]
+- !private ["Ps23CustomStringConvertible", "row"]
+- !private ["Ps23CustomStringConvertible", "setNavigationBarHidden"]
+- !private ["Ps23CustomStringConvertible", "title"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", "viewWillAppear"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "collectionView"]
+- !private ["Ps9Equatable", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "navigationController"]
+- !private ["Ps9Equatable", "navigationItem"]
+- ["Ps9Equatable", "numberOfSectionsInCollectionView"]
+- !private ["Ps9Equatable", "row"]
+- !private ["Ps9Equatable", "setNavigationBarHidden"]
+- !private ["Ps9Equatable", "title"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", "viewWillAppear"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "collectionView"]
+- !private ["Ps8Hashable", "dequeueReusableCellWithReuseIdentifier"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "navigationController"]
+- !private ["Ps8Hashable", "navigationItem"]
+- ["Ps8Hashable", "numberOfSectionsInCollectionView"]
+- !private ["Ps8Hashable", "row"]
+- !private ["Ps8Hashable", "setNavigationBarHidden"]
+- !private ["Ps8Hashable", "title"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", "viewWillAppear"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "collectionView"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationController"]
+- !private ["PSo8NSCoding", "navigationItem"]
+- ["PSo8NSCoding", "numberOfSectionsInCollectionView"]
+- !private ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "setNavigationBarHidden"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "row"]
+- ["PSo26NSExtensionRequestHandling", "collectionView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationItem"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInCollectionView"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "row"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UICollectionViewCell"]
+- ["CSo8NSObject", "collectionView"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithReuseIdentifier"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "navigationController"]
+- !private ["CSo8NSObject", "navigationItem"]
+- ["CSo8NSObject", "numberOfSectionsInCollectionView"]
+- !private ["CSo8NSObject", "row"]
+- !private ["CSo8NSObject", "setNavigationBarHidden"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", "collectionView"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- !private ["PSo16NSObjectProtocol", "navigationItem"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInCollectionView"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "row"]
+- !private ["Sq", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo21UIAppearanceContainer", "collectionView"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- !private ["PSo21UIAppearanceContainer", "navigationItem"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInCollectionView"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo16UICollectionView", "dequeueReusableCellWithReuseIdentifier"]
+- ["CSo26UICollectionViewController", "Bool"]
+- ["CSo26UICollectionViewController", "Int"]
+- ["CSo26UICollectionViewController", "NSIndexPath"]
+- ["CSo26UICollectionViewController", "UICollectionView"]
+- ["CSo26UICollectionViewController", "UICollectionViewCell"]
+- ["CSo26UICollectionViewController", "collectionView"]
+- ["CSo26UICollectionViewController", "didReceiveMemoryWarning"]
+- ["CSo26UICollectionViewController", "init"]
+- !private ["CSo26UICollectionViewController", "navigationController"]
+- !private ["CSo26UICollectionViewController", "navigationItem"]
+- ["CSo26UICollectionViewController", "numberOfSectionsInCollectionView"]
+- ["CSo26UICollectionViewController", "viewDidLoad"]
+- ["CSo26UICollectionViewController", "viewWillAppear"]
+- ["CSo26UICollectionViewController", ""]
+- ["PSo26UICollectionViewDataSource", "collectionView"]
+- ["PSo26UICollectionViewDataSource", "didReceiveMemoryWarning"]
+- ["PSo26UICollectionViewDataSource", "init"]
+- !private ["PSo26UICollectionViewDataSource", "navigationController"]
+- !private ["PSo26UICollectionViewDataSource", "navigationItem"]
+- ["PSo26UICollectionViewDataSource", "numberOfSectionsInCollectionView"]
+- ["PSo26UICollectionViewDataSource", "viewDidLoad"]
+- ["PSo26UICollectionViewDataSource", "viewWillAppear"]
+- ["PSo26UICollectionViewDataSource", ""]
+- ["PSo24UICollectionViewDelegate", "collectionView"]
+- ["PSo24UICollectionViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo24UICollectionViewDelegate", "init"]
+- !private ["PSo24UICollectionViewDelegate", "navigationController"]
+- !private ["PSo24UICollectionViewDelegate", "navigationItem"]
+- ["PSo24UICollectionViewDelegate", "numberOfSectionsInCollectionView"]
+- ["PSo24UICollectionViewDelegate", "viewDidLoad"]
+- ["PSo24UICollectionViewDelegate", "viewWillAppear"]
+- ["PSo24UICollectionViewDelegate", ""]
+- ["PSo18UIContentContainer", "collectionView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- !private ["PSo18UIContentContainer", "navigationItem"]
+- ["PSo18UIContentContainer", "numberOfSectionsInCollectionView"]
+- !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo18UIFocusEnvironment", "collectionView"]
+- !private ["PSo18UIFocusEnvironment", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- !private ["PSo18UIFocusEnvironment", "navigationItem"]
+- ["PSo18UIFocusEnvironment", "numberOfSectionsInCollectionView"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "setNavigationBarHidden"]
+- !private ["CSo16UINavigationItem", "title"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "UICollectionView"]
+- ["CSo11UIResponder", "UICollectionViewCell"]
+- ["CSo11UIResponder", "collectionView"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithReuseIdentifier"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationController"]
+- !private ["CSo11UIResponder", "navigationItem"]
+- ["CSo11UIResponder", "numberOfSectionsInCollectionView"]
+- !private ["CSo11UIResponder", "setNavigationBarHidden"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo20UIScrollViewDelegate", "collectionView"]
+- ["PSo20UIScrollViewDelegate", "didReceiveMemoryWarning"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "navigationController"]
+- !private ["PSo20UIScrollViewDelegate", "navigationItem"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInCollectionView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", "viewWillAppear"]
+- ["PSo20UIScrollViewDelegate", ""]
+- ["PSo16UIStateRestoring", "collectionView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- !private ["PSo16UIStateRestoring", "navigationItem"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInCollectionView"]
+- !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- ["PSo18UITraitEnvironment", "collectionView"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithReuseIdentifier"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- !private ["PSo18UITraitEnvironment", "navigationItem"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInCollectionView"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "dequeueReusableCellWithReuseIdentifier"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- ["CSo16UIViewController", "UICollectionView"]
+- ["CSo16UIViewController", "UICollectionViewCell"]
+- ["CSo16UIViewController", "collectionView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationController"]
+- !private ["CSo16UIViewController", "navigationItem"]
+- ["CSo16UIViewController", "numberOfSectionsInCollectionView"]
+- !private ["CSo16UIViewController", "setNavigationBarHidden"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "dequeueReusableCellWithReuseIdentifier"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8Reshotel38BookingDetailsCollectionViewController"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSIndexPath"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Sq"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo16UICollectionView"
+- "CSo26UICollectionViewController"
+- "PSo26UICollectionViewDataSource"
+- "PSo24UICollectionViewDelegate"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- !private "CSo16UINavigationItem"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/Reshotel/Reshotel-Bridging-Header.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/Reshotel/Reshotel/Reachability.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/Reshotel/Reshotel/FSCalendar/FSCalendar.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/Reshotel/Reshotel/FSCalendar/FSCalendarAppearance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/Reshotel/Reshotel/FSCalendar/FSCalendarConstance.h"
+interface-hash: "0a406ca7f5d387ed7decf254406d33ff"

@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "bd7dcdac2a4ff743849640944f1bc102"
+build_time: [518079301, 198543000]
+inputs:
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/LoginViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/SettingsViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/ContactUsViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AvailabilityViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Booking.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/ratePlanView.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingTableViewCell.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Constants.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingDetailsViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FullCalendarShowViewController.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AvailabilityTableViewCell.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AppDelegate.swift": [9223372036854775807, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/DeshBoardTabBarViewController.swift": [9223372036854775807, 0]

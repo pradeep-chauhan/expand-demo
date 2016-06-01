@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reshotel.png" translatesAutoresizingMaskIntoConstraints="NO" id="jJf-gk-85G">
+                                <rect key="frame" x="58" y="254" width="204" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204" id="gkx-kd-Y0E"/>
+                                    <constraint firstAttribute="height" constant="59" id="moJ-Mq-uM0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © Reshotel Solutions India Private Limited 2016" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HX-Yd-tMY">
+                                <rect key="frame" x="20" y="539" width="280" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="KAl-zk-wKV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jJf-gk-85G" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1iB-RJ-xxG"/>
+                            <constraint firstItem="jJf-gk-85G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Z2-aJ-rSz"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7HX-Yd-tMY" secondAttribute="bottom" constant="8" symbolic="YES" id="BLg-vd-1TZ"/>
+                            <constraint firstItem="7HX-Yd-tMY" firstAttribute="centerX" secondItem="jJf-gk-85G" secondAttribute="centerX" id="tMk-it-VOy"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="reshotel.png" width="175" height="100"/>
+    </resources>
+</document>

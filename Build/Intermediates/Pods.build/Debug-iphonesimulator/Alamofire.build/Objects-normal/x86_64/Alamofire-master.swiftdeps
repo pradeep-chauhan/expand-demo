@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "1fff28d3d152346e83ec102d774d328b"
+build_time: [518033790, 860896000]
+inputs:
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Alamofire.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Download.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Error.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Manager.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/MultipartFormData.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Notifications.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/ParameterEncoding.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Request.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Response.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/ResponseSerialization.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Result.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/ServerTrustPolicy.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Stream.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Timeline.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Upload.swift": [516958122, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Alamofire/Source/Validation.swift": [516958122, 0]

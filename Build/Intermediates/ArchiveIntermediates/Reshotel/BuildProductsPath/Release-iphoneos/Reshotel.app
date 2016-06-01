@@ -1,0 +1,1 @@
+/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/ArchiveIntermediates/Reshotel/InstallationBuildProductsLocation/Applications/Reshotel.app

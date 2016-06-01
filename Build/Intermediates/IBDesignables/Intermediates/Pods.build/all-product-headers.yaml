@@ -1,0 +1,114 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerSwift-Swift.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "IQKeyboardManagerSwift-umbrella.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/IQKeyboardManagerSwift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Reshotel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Reshotel-umbrella.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Target Support Files/Pods-Reshotel/Pods-Reshotel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Reshotel-Swift.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Reshotel.framework/Headers/Pods_Reshotel-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Pods_Reshotel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Reshotel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Intermediates/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginViewController"
+provides-nominal:
+- "C8Reshotel19LoginViewController"
+provides-member:
+- ["C8Reshotel19LoginViewController", ""]
+provides-dynamic-lookup:
+- "usernameTextField"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+- "loginButtonAction"
+- "passwordTextField"
+- "loginButton"
+depends-top-level:
+- "LoginViewController"
+- "UIButton"
+- !private "UIStoryboard"
+- "UITextField"
+- !private "StringLiteralType"
+- "AnyObject"
+- "UIViewController"
+- !private "DeshBoardTabBarViewController"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "UIStoryboard"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instantiateViewControllerWithIdentifier"]
+- ["Ps9AnyObject", "loginButton"]
+- ["Ps9AnyObject", "loginButtonAction"]
+- !private ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "passwordTextField"]
+- !private ["Ps9AnyObject", "pushViewController"]
+- !private ["Ps9AnyObject", "setNavigationBarHidden"]
+- ["Ps9AnyObject", "usernameTextField"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps11CVarArgType", "UIStoryboard"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "instantiateViewControllerWithIdentifier"]
+- ["Ps11CVarArgType", "loginButton"]
+- ["Ps11CVarArgType", "loginButtonAction"]
+- !private ["Ps11CVarArgType", "navigationController"]
+- ["Ps11CVarArgType", "passwordTextField"]
+- !private ["Ps11CVarArgType", "pushViewController"]
+- !private ["Ps11CVarArgType", "setNavigationBarHidden"]
+- ["Ps11CVarArgType", "usernameTextField"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "UIStoryboard"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "instantiateViewControllerWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "loginButton"]
+- ["Ps28CustomDebugStringConvertible", "loginButtonAction"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "passwordTextField"]
+- !private ["Ps28CustomDebugStringConvertible", "pushViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "setNavigationBarHidden"]
+- ["Ps28CustomDebugStringConvertible", "usernameTextField"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIStoryboard"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "instantiateViewControllerWithIdentifier"]
+- ["Ps23CustomStringConvertible", "loginButton"]
+- ["Ps23CustomStringConvertible", "loginButtonAction"]
+- !private ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "passwordTextField"]
+- !private ["Ps23CustomStringConvertible", "pushViewController"]
+- !private ["Ps23CustomStringConvertible", "setNavigationBarHidden"]
+- ["Ps23CustomStringConvertible", "usernameTextField"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "UIStoryboard"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "instantiateViewControllerWithIdentifier"]
+- ["Ps9Equatable", "loginButton"]
+- ["Ps9Equatable", "loginButtonAction"]
+- !private ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "passwordTextField"]
+- !private ["Ps9Equatable", "pushViewController"]
+- !private ["Ps9Equatable", "setNavigationBarHidden"]
+- ["Ps9Equatable", "usernameTextField"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "UIStoryboard"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "instantiateViewControllerWithIdentifier"]
+- ["Ps8Hashable", "loginButton"]
+- ["Ps8Hashable", "loginButtonAction"]
+- !private ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "passwordTextField"]
+- !private ["Ps8Hashable", "pushViewController"]
+- !private ["Ps8Hashable", "setNavigationBarHidden"]
+- ["Ps8Hashable", "usernameTextField"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["C8Reshotel19LoginViewController", "AnyObject"]
+- !private ["C8Reshotel19LoginViewController", "DeshBoardTabBarViewController"]
+- ["C8Reshotel19LoginViewController", "UIButton"]
+- !private ["C8Reshotel19LoginViewController", "UIStoryboard"]
+- ["C8Reshotel19LoginViewController", "UITextField"]
+- ["C8Reshotel19LoginViewController", "deinit"]
+- ["C8Reshotel19LoginViewController", "didReceiveMemoryWarning"]
+- ["C8Reshotel19LoginViewController", "init"]
+- ["C8Reshotel19LoginViewController", "loginButton"]
+- ["C8Reshotel19LoginViewController", "loginButtonAction"]
+- !private ["C8Reshotel19LoginViewController", "navigationController"]
+- ["C8Reshotel19LoginViewController", "passwordTextField"]
+- ["C8Reshotel19LoginViewController", "usernameTextField"]
+- ["C8Reshotel19LoginViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "UIStoryboard"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loginButton"]
+- ["PSo8NSCoding", "loginButtonAction"]
+- !private ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "passwordTextField"]
+- !private ["PSo8NSCoding", "pushViewController"]
+- !private ["PSo8NSCoding", "setNavigationBarHidden"]
+- ["PSo8NSCoding", "usernameTextField"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo26NSExtensionRequestHandling", "UIStoryboard"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "loginButton"]
+- ["PSo26NSExtensionRequestHandling", "loginButtonAction"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "passwordTextField"]
+- !private ["PSo26NSExtensionRequestHandling", "pushViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "setNavigationBarHidden"]
+- ["PSo26NSExtensionRequestHandling", "usernameTextField"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "DeshBoardTabBarViewController"]
+- ["CSo8NSObject", "UIButton"]
+- !private ["CSo8NSObject", "UIStoryboard"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "instantiateViewControllerWithIdentifier"]
+- ["CSo8NSObject", "loginButton"]
+- ["CSo8NSObject", "loginButtonAction"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "passwordTextField"]
+- !private ["CSo8NSObject", "pushViewController"]
+- !private ["CSo8NSObject", "setNavigationBarHidden"]
+- ["CSo8NSObject", "usernameTextField"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIStoryboard"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "instantiateViewControllerWithIdentifier"]
+- ["PSo16NSObjectProtocol", "loginButton"]
+- ["PSo16NSObjectProtocol", "loginButtonAction"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "passwordTextField"]
+- !private ["PSo16NSObjectProtocol", "pushViewController"]
+- !private ["PSo16NSObjectProtocol", "setNavigationBarHidden"]
+- ["PSo16NSObjectProtocol", "usernameTextField"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIAppearanceContainer", "UIStoryboard"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "loginButton"]
+- ["PSo21UIAppearanceContainer", "loginButtonAction"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "passwordTextField"]
+- !private ["PSo21UIAppearanceContainer", "pushViewController"]
+- !private ["PSo21UIAppearanceContainer", "setNavigationBarHidden"]
+- ["PSo21UIAppearanceContainer", "usernameTextField"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "UIStoryboard"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "loginButton"]
+- ["PSo18UIContentContainer", "loginButtonAction"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "passwordTextField"]
+- !private ["PSo18UIContentContainer", "pushViewController"]
+- !private ["PSo18UIContentContainer", "setNavigationBarHidden"]
+- ["PSo18UIContentContainer", "usernameTextField"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo18UIFocusEnvironment", "UIStoryboard"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "loginButton"]
+- ["PSo18UIFocusEnvironment", "loginButtonAction"]
+- !private ["PSo18UIFocusEnvironment", "navigationController"]
+- ["PSo18UIFocusEnvironment", "passwordTextField"]
+- !private ["PSo18UIFocusEnvironment", "pushViewController"]
+- !private ["PSo18UIFocusEnvironment", "setNavigationBarHidden"]
+- ["PSo18UIFocusEnvironment", "usernameTextField"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo22UINavigationController", "pushViewController"]
+- !private ["CSo22UINavigationController", "setNavigationBarHidden"]
+- ["CSo11UIResponder", "AnyObject"]
+- !private ["CSo11UIResponder", "DeshBoardTabBarViewController"]
+- ["CSo11UIResponder", "UIButton"]
+- !private ["CSo11UIResponder", "UIStoryboard"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "loginButton"]
+- ["CSo11UIResponder", "loginButtonAction"]
+- !private ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "passwordTextField"]
+- !private ["CSo11UIResponder", "pushViewController"]
+- !private ["CSo11UIResponder", "setNavigationBarHidden"]
+- ["CSo11UIResponder", "usernameTextField"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "UIStoryboard"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "loginButton"]
+- ["PSo16UIStateRestoring", "loginButtonAction"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "passwordTextField"]
+- !private ["PSo16UIStateRestoring", "pushViewController"]
+- !private ["PSo16UIStateRestoring", "setNavigationBarHidden"]
+- ["PSo16UIStateRestoring", "usernameTextField"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo12UIStoryboard", "init"]
+- !private ["CSo12UIStoryboard", "instantiateViewControllerWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "UIStoryboard"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "loginButton"]
+- ["PSo18UITraitEnvironment", "loginButtonAction"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "passwordTextField"]
+- !private ["PSo18UITraitEnvironment", "pushViewController"]
+- !private ["PSo18UITraitEnvironment", "setNavigationBarHidden"]
+- ["PSo18UITraitEnvironment", "usernameTextField"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo16UIViewController", "AnyObject"]
+- !private ["CSo16UIViewController", "DeshBoardTabBarViewController"]
+- ["CSo16UIViewController", "UIButton"]
+- !private ["CSo16UIViewController", "UIStoryboard"]
+- ["CSo16UIViewController", "UITextField"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "loginButton"]
+- ["CSo16UIViewController", "loginButtonAction"]
+- !private ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "passwordTextField"]
+- !private ["CSo16UIViewController", "pushViewController"]
+- !private ["CSo16UIViewController", "setNavigationBarHidden"]
+- ["CSo16UIViewController", "usernameTextField"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C8Reshotel19LoginViewController"
+- "PSo8NSCoding"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo18UIFocusEnvironment"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- !private "CSo12UIStoryboard"
+- "PSo18UITraitEnvironment"
+- "CSo16UIViewController"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel-Bridging-Header.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Reachability.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendar.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarAppearance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarConstance.h"
+interface-hash: "66baed75b71a0d0d06b206802c79337b"

@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "03a45e3bb9976cc61d55ae05b2e920fe"
+build_time: [518079997, 240488000]
+inputs:
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/LoginViewController.swift": [517308365, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingViewController.swift": [517908930, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/SettingsViewController.swift": [517928490, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/ContactUsViewController.swift": [517929064, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AvailabilityViewController.swift": [518074385, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Booking.swift": [517317307, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/ratePlanView.swift": [517937038, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingTableViewCell.swift": [517586658, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Constants.swift": [517307028, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/BookingDetailsViewController.swift": [518079033, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FullCalendarShowViewController.swift": [517559227, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AvailabilityTableViewCell.swift": [518079993, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/AppDelegate.swift": [517905699, 0]
+  "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/DeshBoardTabBarViewController.swift": [517558592, 0]

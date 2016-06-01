@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "greenColor"
+- "baseUrl"
+- "WIFI"
+- "NOACCESS"
+- "WWAN"
+- "NOTIFICATION_REACHABILITY_STATUS_CHANGED"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "NOTIFICATION_REACHABILITY_STATUS_CHANGED"
+- "baseUrl"
+- "StringLiteralType"
+- "WWAN"
+- "UIColor"
+- "NOACCESS"
+- "greenColor"
+- "WIFI"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps9Equatable", "init"]
+- ["Ps8Hashable", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo7UIColor", "init"]
+- ["Ps24_ColorLiteralConvertible", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo7UIColor"
+- "Ps24_ColorLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel-Bridging-Header.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Reachability.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendar.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarAppearance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarConstance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Products/Debug-iphoneos/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "40d99453ff939582b72ebed45267f8c4"

@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ratePlanView"
+provides-nominal:
+- "C8Reshotel12ratePlanView"
+provides-member:
+- ["C8Reshotel12ratePlanView", ""]
+provides-dynamic-lookup:
+- "ratePlanPrice"
+- "ratePlanName"
+depends-top-level:
+- "ratePlanView"
+- "UITextField"
+- "UIView"
+- "UILabel"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "ratePlanName"]
+- ["Ps9AnyObject", "ratePlanPrice"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "ratePlanName"]
+- ["Ps11CVarArgType", "ratePlanPrice"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "ratePlanName"]
+- ["Ps28CustomDebugStringConvertible", "ratePlanPrice"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "ratePlanName"]
+- ["Ps23CustomStringConvertible", "ratePlanPrice"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "ratePlanName"]
+- ["Ps9Equatable", "ratePlanPrice"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "ratePlanName"]
+- ["Ps8Hashable", "ratePlanPrice"]
+- ["Ps8Hashable", ""]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "ratePlanName"]
+- ["PSo8NSCoding", "ratePlanPrice"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "ratePlanName"]
+- ["CSo8NSObject", "ratePlanPrice"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "ratePlanName"]
+- ["PSo16NSObjectProtocol", "ratePlanPrice"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "ratePlanName"]
+- ["PSo29UIAccessibilityIdentification", "ratePlanPrice"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "ratePlanName"]
+- ["PSo12UIAppearance", "ratePlanPrice"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "ratePlanName"]
+- ["PSo21UIAppearanceContainer", "ratePlanPrice"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "ratePlanName"]
+- ["PSo17UICoordinateSpace", "ratePlanPrice"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "ratePlanName"]
+- ["PSo13UIDynamicItem", "ratePlanPrice"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "ratePlanName"]
+- ["PSo18UIFocusEnvironment", "ratePlanPrice"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "ratePlanName"]
+- ["CSo11UIResponder", "ratePlanPrice"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "ratePlanName"]
+- ["PSo18UITraitEnvironment", "ratePlanPrice"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "UITextField"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "ratePlanName"]
+- ["CSo6UIView", "ratePlanPrice"]
+- ["CSo6UIView", ""]
+- ["Ps12_Reflectable", "init"]
+- ["Ps12_Reflectable", "ratePlanName"]
+- ["Ps12_Reflectable", "ratePlanPrice"]
+- ["Ps12_Reflectable", ""]
+- ["C8Reshotel12ratePlanView", "UILabel"]
+- ["C8Reshotel12ratePlanView", "UITextField"]
+- ["C8Reshotel12ratePlanView", "deinit"]
+- ["C8Reshotel12ratePlanView", "init"]
+- ["C8Reshotel12ratePlanView", "ratePlanName"]
+- ["C8Reshotel12ratePlanView", "ratePlanPrice"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps12_Reflectable"
+- "C8Reshotel12ratePlanView"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel-Bridging-Header.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/Reachability.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendar.h"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode 7.3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarAppearance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Reshotel/FSCalendar/FSCalendarConstance.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Modules/IQKeyboardManagerSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-Swift.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Headers/IQKeyboardManagerSwift-umbrella.h"
+- "/Users/PradeepChauhan/mac app/Development/Xcode 7.3/reshotel_iphone_app/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/IQKeyboardManagerSwift.framework/Modules/module.modulemap"
+interface-hash: "fc276a57c9b87b5646b2728f98c6ddb1"
